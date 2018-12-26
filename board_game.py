@@ -1,3 +1,7 @@
+"""
+A board game that supports two players who play against each other.
+"""
+
 from collections import deque
 
 class Player:
@@ -67,7 +71,6 @@ if __name__ == '__main__':
     game.play(Cell(2, 0))
     game.play(Cell(2, 1))
     game.play(Cell(2, 2))
-    
+
     game.play(Cell(2, 2))
     pass
-
