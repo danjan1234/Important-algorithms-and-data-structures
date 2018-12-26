@@ -1,8 +1,8 @@
 """
 A simple coffee machine.
 
-Note in the class CoffeeMachine, some of the methods accept class objects (instead of instances) as the input. This is 
-not possible in some languages such as C++, Java.
+Note in the class CoffeeMachine, some of the builtin methods accept classes (instead of their instances) as the input
+variables. This is not possible in some languages such as C++, Java.
 """
 # Ingredients
 class Ingredient:
