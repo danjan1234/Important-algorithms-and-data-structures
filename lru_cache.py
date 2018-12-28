@@ -64,5 +64,3 @@ class LRUCache:
         node, node_next = self._head.next, self._head.next.next
         self._head.next, node_next.prev = node_next, self._head
         self._dic.pop(node.key)
-
-        
