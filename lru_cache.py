@@ -6,7 +6,6 @@ class Node:
         self.prev = self.next = None
 
 class LRUCache:
-
     def __init__(self, capacity):
         """
         :type capacity: int
@@ -15,8 +14,7 @@ class LRUCache:
         self._head = Node(-1, -1)   # Dummy head
         self._tail = Node(-1, -1)   # Dummy tail
         self._head.next, self._tail.prev = self._tail, self._head   # h <-> t
-        self._capacity = capacity
-        
+        self._capacity = capacity 
 
     def get(self, key):
         """
